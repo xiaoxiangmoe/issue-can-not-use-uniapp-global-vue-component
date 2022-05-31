@@ -7,6 +7,8 @@ const title = ref('Hello111233')
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
+      <foo-bar />
+      <foo-bar-page /> 
     </view>
   </view>
 </template>
